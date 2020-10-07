@@ -48,3 +48,5 @@ RUN pip3 install \
 RUN rm -rf \
 	tmp \
 	awscliv2
+
+COPY ["switchRole.sh", "getParamStore.sh", "/var/"]
